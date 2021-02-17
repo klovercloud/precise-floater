@@ -1,7 +1,7 @@
 package PreciseFloater
 
 import (
-	"PreciseFloater/enum"
+	"github.com/klovercloud/precise-floater/enum"
 	"testing"
 )
 

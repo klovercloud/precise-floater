@@ -1,8 +1,8 @@
 package PreciseFloater
 
 import (
-	"PreciseFloater/enum"
 	"errors"
+	"github.com/klovercloud/precise-floater/enum"
 	"math"
 )
 
