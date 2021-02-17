@@ -54,11 +54,11 @@ func (preciseFloater PreciseFloater) Float64(input float64, mode enum.PreciseMod
 	}
 	return input, nil
 }
-func (preciseFloater PreciseFloater) Bill64(input float64) float64 {
+func (preciseFloater PreciseFloater) DefaultFloat64(input float64) float64 {
 	rtn, _ := PreciseFloater{}.Float64(input, enum.Ceil, 2)
 	return rtn
 }
-func (preciseFloater PreciseFloater) Bill32(input float32) float32 {
+func (preciseFloater PreciseFloater) DefaultFloat32(input float32) float32 {
 	rtn, _ := PreciseFloater{}.Float32(input, enum.Ceil, 2)
 	return rtn
 }
