@@ -1,4 +1,4 @@
-package main
+package pkg
 
 import (
 	"github.com/klovercloud/precise-floater/enum"
