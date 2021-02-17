@@ -1,4 +1,4 @@
-package PreciseFloater
+package main
 
 import (
 	"errors"
