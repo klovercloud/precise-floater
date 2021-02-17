@@ -1,3 +1,3 @@
-module PreciseFloater
+module precise-floater
 
 go 1.15
